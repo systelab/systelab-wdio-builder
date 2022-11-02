@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "type": "object",
+  "properties": {
+    "wdioConfig": {
+      "type": "string",
+      "default": "e2e/wdio.conf.js"
+    },
+    "devServerTarget": {
+      "type": "string"
+    },
+    "wdioOptions": {
+      "type": "object",
+      "default": {}
+    },
+    "port": {
+      "type": "number"
+    },
+    "host": {
+      "type": "string"
+    },
+    "disableHostCheck": {
+      "type": "boolean"
+    }
+  }
+}

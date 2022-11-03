@@ -1,6 +1,6 @@
 {
   "name": "systelab-wdio-builder",
-  "version": "1.0.0",
+  "version": "14.0.0",
   "license": "MIT",
   "description": "Angular builder for running functional test based on WebDriverIO runner.",
   "homepage": "https://github.com/systelab/systelab-wdio-builder.git",

@@ -70,7 +70,7 @@ export default createBuilder(runWdioTest);
 
 function isWdioInstalled(): boolean {
     try {
-        const Launcher = require('@wdio/cli').default;
+        require('@wdio/cli').default;
         return true;
     } catch (err) {
         return false;

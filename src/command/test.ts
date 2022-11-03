@@ -28,6 +28,7 @@ export const runWdioTest =  async ( options: Options, context: BuilderContext ):
             return Promise.resolve({"success": false, "error": `${options.devServerTarget} failed. Can not run command. Exiting`})
         }
     }
+
     const Launcher = require('@wdio/cli').default;
     const wdio = new Launcher(options.wdioConfig, options.wdioOptions);
 

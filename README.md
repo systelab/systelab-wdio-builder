@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/systelab-wdio-builder.svg)](https://badge.fury.io/js/systelab-wdio-builder)
+
 # systelab-wdio-builder
 
 Angular builder for running e2e tests using webdriver.io runner. Fork from [@migalons/angular-wdio-builder](https://github.com/migalons/angular-wdio-builder) repository (not maintained).
